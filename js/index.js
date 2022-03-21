@@ -26,7 +26,7 @@ listNumbers.forEach(rating => {
                 openContainer.classList.remove('open')
                 const toOpenContainer = document.querySelector('.thanks')
                 toOpenContainer.classList.add('open')
-                score.classList.add('score')
+                // score.classList.add('score')
             
         } 
     })
