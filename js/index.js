@@ -15,6 +15,7 @@ listNumbers.forEach(rating => {
         
         rating.classList.add("active")
         console.log(rating)
+        console.log(value)
     })
 })
 
