@@ -1,0 +1,156 @@
+@media screen and (max-width: 460px){
+    section {
+        width: 90%;
+        margin: auto;
+    }
+}
+body {
+    font-family: 'Overpass', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: hsl(228, 11%, 9%);
+}
+
+section {
+    display: none;
+    max-width: 28rem;
+    margin: 0 auto;
+    background-color: hsl(213, 20%, 18%);
+    padding: 3rem 1rem;
+    border-radius: 10px;
+}
+
+section.open {
+    display: block;
+}
+
+.container star {
+    padding: 0 3rem 0;
+}
+
+.star {
+    display: flex;
+    height: 3rem;
+}
+
+.star img {
+    height: 1.5rem;
+    margin: 0 20px;
+    border-radius: 30px;
+    background-color: hsl(216, 12%, 54%);
+    padding: 8px 8px;
+}
+
+.text {
+    padding-top: 2rem;
+}
+
+.text h2 {
+    font-size: 2em;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    margin: -30px 22px;
+    padding-bottom: 30px;
+}
+
+.text p {
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    padding-bottom: 0.5rem;
+}
+
+.rate .number {
+    cursor: pointer;
+}
+
+.rate .number:hover {
+    transform: scale(1.05);
+    transition: 150ms ease-in-out;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.rate .number.active {
+    background-color: hsl(0, 0%, 100%);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container .rate ul li {
+    background-color: hsl(217, 12%, 63%);
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+
+.submit {
+    color: hsl(0, 0%, 100%);
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+}
+
+.submit:hover {
+    transform: scale(1.05);
+    transition: 150ms ease-in-out;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.thanks {
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 460px) {
+    .thanks {
+        width: 90vw;
+        min-width: 0;
+    }
+}
+.thank_you {
+    width: 20em;
+    height: 20em;
+}
+
+.thank_you img {
+    padding-bottom: 1em;
+}
+
+.thank_you .selected_rated {
+    box-sizing: border-box;
+    border-radius: 2em;
+    justify-content: center;
+    padding: 0.7em 1rem;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.thank_you h2 {
+    color:hsl(0, 0%, 100%);
+}
+
+.thank_you p {
+    color: hsl(216, 12%, 54%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: justify;;
+    color: hsl(216, 12%, 54%);
+  }
+
+  .attribution a {
+    color:hsl(0, 0%, 100%);
+  }
